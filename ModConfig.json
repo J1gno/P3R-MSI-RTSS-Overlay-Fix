@@ -1,0 +1,41 @@
+{
+  "ModId": "p3rpc.rtssfix",
+  "ModName": "P3R RTSS Overlay Fix",
+  "ModAuthor": "Custom",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Allows MSI Afterburner / RTSS overlay to render when launching Persona 3 Reload through Reloaded-II by hiding WPF/WinUI ignore-trigger modules from GetModuleHandleA.",
+  "ModDll": "p3rpc.rtssfix.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "p3r.exe"
+  ],
+  "ProjectUrl": ""
+}
